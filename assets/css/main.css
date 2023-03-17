@@ -47,10 +47,8 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
-  Color:rgb(33, 37, 41);
-  font-size: 14px;
-  font-family:system-ui;
-  line-height: 21px;
+  color: var(--clr-body-text);
+  font-size: 16px;
 }
 
 .img, img {
@@ -1791,9 +1789,6 @@ select:-ms-input-placeholder {
   list-style: none;
 }
 .repto-main-menu ul li {
-  font-size: 14px;
-  font-family:system-ui;
-  line-height: 21px;
   display: inline-block;
   list-style: none;
   position: relative;
@@ -1802,18 +1797,12 @@ select:-ms-input-placeholder {
   padding-left: 20px;
 }
 .repto-main-menu ul li:hover .sub_menu {
-  font-size: 14px;
-  font-family:system-ui;
-  line-height: 21px;
   opacity: 1;
   visibility: visible;
   top: 42px;
   pointer-events: auto;
 }
 ul.sub_menu.sub_menu_2 ul.sub-menu, ul.sub_menu li.menu-item-has-children ul.sub-menu {
-  font-size: 14px;
-  font-family:system-ui;
-  line-height: 21px;
   position: absolute;
   top: 30px;
   background: #fff;
@@ -2798,7 +2787,7 @@ header {
 }
 .banner-form {
   background-color: #fff;
-  padding: 40px;
+  padding: 0px;
   border-radius: 10px;
   box-shadow: 0 0 10px 1px #000;
   width: 80%;
@@ -3211,6 +3200,7 @@ header {
   z-index: 0;
   background: url(../img/slider/background-slider.jpg);
   background-attachment: fixed;
+  background-size: contain;
 }
 .home_slider3.p-rel::after {
   content: "";
