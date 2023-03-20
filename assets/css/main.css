@@ -5025,8 +5025,8 @@ section.serction-opensans-font {
 .service_area.service_Area3 .service_single .service_left_icon span {
   border-radius: 10px;
   position: relative;
-  width: 52px;
-  height: 52px;
+  width: 7rem;
+  /* height: 52px; */
   display: flex;
   align-items: center;
   justify-content: center;
